@@ -126,9 +126,11 @@ body {
 		border-radius: 3px;
 		margin-bottom: 1em;
 		box-sizing: border-box;
+
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -259,4 +261,6 @@ body {
 				left: 0;
 			}
 
-
+.over {
+		color: red;
+	}
